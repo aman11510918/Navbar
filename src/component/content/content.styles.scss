@@ -1,0 +1,34 @@
+p {
+  text-align: justify;
+}
+h3 {
+  text-align: center;
+  font-size: 45px;
+  &::before {
+    display: block;
+    content: " ";
+    height: 61px;
+    // margin-top: -61px;
+    visibility: hidden;
+  }
+}
+.home {
+  background-color: #ffd5cd;
+  height: 100vh;
+}
+.about {
+  background-color: #efbbcf;
+  height: 100vh;
+}
+.services {
+  background-color: #c3aed6;
+  height: 100vh;
+}
+.special {
+  background-color: #8675a9;
+  height: 100vh;
+}
+.contact {
+  background-color: #fafcc2;
+  height: 100vh;
+}

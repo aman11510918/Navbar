@@ -1,10 +1,9 @@
 import React from 'react';
+import Dashboard from './component/dashboard/dashboard.index'
 
 function App() {
   return (
-    <div>
-      <div>Aman</div>
-    </div>
+    <Dashboard/>
   );
 }
 
