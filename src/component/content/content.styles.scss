@@ -2,15 +2,12 @@ p {
   text-align: justify;
 }
 h3 {
-  text-align: center;
   font-size: 45px;
-  &::before {
-    display: block;
-    content: " ";
-    height: 61px;
-    // margin-top: -61px;
-    visibility: hidden;
-  }
+}
+.topMargin {
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 .home {
   background-color: #ffd5cd;

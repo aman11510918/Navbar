@@ -9,7 +9,7 @@ export default class Navbar extends Component {
     };
   }
   componentDidMount() {
-    console.log(React.createRef())
+    // console.log(React.createRef())
     window.addEventListener("scroll", this.handleScroll);
   }
   componentWillUnmount() {
@@ -43,19 +43,19 @@ export default class Navbar extends Component {
             }`}
           >
             <li>
-              <a href="#home">home</a>
+              <a href="#home">item 1</a>
             </li>
             <li>
-              <a href="#services">services</a>
+              <a href="#services">item 2</a>
             </li>
             <li>
-              <a href="#special">our special</a>
+              <a href="#special">item 3</a>
             </li>
             <li>
-              <a href="#about">about</a>
+              <a href="#about">item 4</a>
             </li>
             <li>
-              <a href="#contact">contact</a>
+              <a href="#contact">item 5</a>
             </li>
           </ul>
         </div>
